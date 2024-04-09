@@ -59,57 +59,67 @@
       <exampleCanonical value="http://draft.hl7.org.au/fhir/mydraftig/StructureDefinition/myobservation"/>
     </resource>
     <page>
-			<nameUrl value="toc.html"/>
-			<title value="Table of Contents"/>
-			<generation value="html"/>
-			<page>
-				<nameUrl value="index.html"/>
-				<title value="Home"/>
-				<generation value="markdown"/>
-			</page>
-			<page>
-				<nameUrl value="guidance.html"/>
-				<title value="Guidance"/>
-				<generation value="markdown"/>
-			</page>
-			<page>
-				<nameUrl value="profiles-and-extensions.html"/>
-				<title value="Profiles and Extensions"/>
-				<generation value="markdown"/>
-			</page>
-			<!--
-			<page>
-				<nameUrl value="search-parameters-and-operations.html"/>
-				<title value="Search Parameters and Operations"/>
-				<generation value="markdown"/>
-			</page>-->
-			<!--<page>
-				<nameUrl value="terminology.html"/>
-				<title value="Terminology"/>
-				<generation value="markdown"/>
-			</page>-->
-			<!--
-			<page>
-				<nameUrl value="capability-statements.html"/>
-				<title value="Capability Statements"/>
-				<generation value="markdown"/>
-			</page>-->
-			<page>
-				<nameUrl value="examples.html"/>
-				<title value="Examples"/>
-				<generation value="markdown"/>
-			</page>
-			<page>
-				<nameUrl value="downloads.html"/>
-				<title value="Downloads"/>
-				<generation value="markdown"/>
-			</page>
-			<!--<page>
-				<nameUrl value="changes.html"/>
-				<title value="Change Log"/>
-				<generation value="markdown"/>
-			</page>-->
+		<nameUrl value="toc.html"/>
+		<title value="Table of Contents"/>
+		<generation value="html"/>
+		<page>
+			<nameUrl value="index.html"/>
+			<title value="Home"/>
+			<generation value="markdown"/>
 		</page>
+		<page>
+			<nameUrl value="guidance.html"/>
+			<title value="Guidance"/>
+			<generation value="markdown"/>
+			<page>
+				<nameUrl value="general-guidance.html"/>
+				<title value="General Guidance"/>
+				<generation value="markdown"/>
+			</page>
+			<page>
+				<nameUrl value="relationship.html"/>
+				<title value="Relationship with other IGs"/>
+				<generation value="markdown"/>
+			</page>
+			<page>
+				<nameUrl value="variance.html"/>
+				<title value="Variance statement"/>
+				<generation value="markdown"/>
+			</page>
+		</page>
+		<!--
+		<page>
+			<nameUrl value="search-parameters-and-operations.html"/>
+			<title value="Search Parameters and Operations"/>
+			<generation value="markdown"/>
+		</page>-->
+		<!--<page>
+			<nameUrl value="terminology.html"/>
+			<title value="Terminology"/>
+			<generation value="markdown"/>
+		</page>-->
+		<!--
+		<page>
+			<nameUrl value="capability-statements.html"/>
+			<title value="Capability Statements"/>
+			<generation value="markdown"/>
+		</page>-->
+		<page>
+			<nameUrl value="examples.html"/>
+			<title value="Examples"/>
+			<generation value="markdown"/>
+		</page>
+		<page>
+			<nameUrl value="downloads.html"/>
+			<title value="Downloads"/>
+			<generation value="markdown"/>
+		</page>
+		<!--<page>
+			<nameUrl value="changes.html"/>
+			<title value="Change Log"/>
+			<generation value="markdown"/>
+		</page>-->
+	</page>
     <!-- copyright year is a mandatory parameter -->
     <parameter>
       <code value="copyrightyear"/>
